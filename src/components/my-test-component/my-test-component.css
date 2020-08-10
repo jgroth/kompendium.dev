@@ -1,0 +1,11 @@
+:host {
+  display: block;
+}
+
+/**
+ * @prop --custom-color: Background color of the text
+ */
+p {
+    background-color: var(--custom-color, white);
+    padding: 1rem;
+}
