@@ -12,7 +12,9 @@ export const config: Config = {
         {
             type: 'docs-custom',
             strict: true,
-            generator: kompendium()
+            generator: kompendium({
+                logo: '/assets/kompendium/collection/assets/logotype.svg',
+            })
         },
         {
             type: 'www',
